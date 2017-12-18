@@ -1,0 +1,26 @@
+{
+  "name": "smokedsalmon.me-site",
+  "version": "0.1.0",
+  "description": "Portfolio of Jerry Su, credited Riccardo Zanutta@ RiccardoZanutta.com",
+  "main": "app.js",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmokedSalmon/smokedsalmon.me-site"
+  },
+  "author": "Jerry Su <jerrysu.jie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthanRBrown/web-development-with-node-and-express/issues"
+  },
+  "homepage": "http://smokedsalmon.me",
+  "dependencies": {
+    "express": ">=4.4.2"
+  }
+}
