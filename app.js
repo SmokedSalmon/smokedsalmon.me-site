@@ -5,12 +5,15 @@ var app = express();
 
 app.set('port', process.env.PORT || 3000);
 
+// use express default jade engine for view templete
+app.set('view engine', 'pug');
+
 console.log( 'Express starts to host static file on:' +__dirname + '\\public' + ' @ "public/assets"');
 app.use('/public/assets', express.static(path.join(__dirname + '/public')));
 
 // route to the landing pages for this experiment
 app.get('/', function(req, res, next){
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
 // 404 catch-all handler (middleware)

@@ -21,6 +21,7 @@
   },
   "homepage": "http://smokedsalmon.me",
   "dependencies": {
-    "express": ">=4.4.2"
+    "express": ">=4.4.2",
+    "pug": "^2.0.0-rc.4"
   }
 }
