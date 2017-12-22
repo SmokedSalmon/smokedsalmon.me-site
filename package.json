@@ -23,7 +23,8 @@
   "homepage": "http://smokedsalmon.me",
   "dependencies": {
     "express": ">=4.4.2",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "webpack": "^3.10.0"
   },
   "devDependencies": {
     "baffle": "^0.3.6",
