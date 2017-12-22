@@ -96,11 +96,11 @@ var Util = function(t) {
         })
     }
       , h = function(t) {
-        ga("set", "page", t),
-        ga("send", "pageview")
+        // ga("set", "page", t),
+        // ga("send", "pageview")
     }
       , c = function(t, e, i) {
-        i ? ga("send", "event", t, e, i) : ga("send", "event", t, e)
+        // i ? ga("send", "event", t, e, i) : ga("send", "event", t, e)
     }
       , f = function() {
         console.info(),

@@ -12,6 +12,11 @@ module.exports = {
     libraryTarget: "window"
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin()
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_EVN': JSON.stringify('development'),
+        'PORT': 3000
+      }
+    })
   ]
 }
