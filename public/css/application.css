@@ -1,8 +1,7 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    overflow: hidden 
+    -webkit-text-size-adjust: 100%
 }
 
 body {
@@ -201,7 +200,7 @@ html {
 body {
     background: #005656;
     color: #005656;
-    font-family: LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif;
+    font-family: LibreBaskerville-Regular,Palatino Linotype,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     will-change: transform;
@@ -260,7 +259,7 @@ img::selection {
 }
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     color: inherit;
     margin-top: 0;
     padding-top: 0;
@@ -718,7 +717,7 @@ button.button-disabled,button[disabled] {
 }
 
 .the-button {
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size: .875em;
     letter-spacing: 3px;
     padding: 12px 20px;
@@ -913,7 +912,7 @@ button.button-disabled,button[disabled] {
 }
 
 .main-hero-subtitle {
-    font-family: LibreBaskerville-Regular,Palatino Linotype,Times New Roman,serif;
+    font-family: LibreBaskerville-Regular,Palatino Linotype, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-style: italic;
     font-weight: 400;
     /* margin-bottom: 25px */
@@ -1159,7 +1158,7 @@ button.button-disabled,button[disabled] {
 }
 
 .hero-single-work-title {
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     margin-bottom: 13px
 }
 
@@ -1194,7 +1193,7 @@ button.button-disabled,button[disabled] {
     margin-right: 3%;
     display: inline-block;
     vertical-align: middle;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     text-transform: uppercase;
     font-size: .75em;
     letter-spacing: 2px
@@ -1782,7 +1781,7 @@ button.button-disabled,button[disabled] {
 .nav-links a {
     display: block;
     padding: 10px 0;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     position: relative;
     color: #b0b2c3;
     transition: color .35s ease
@@ -2118,7 +2117,7 @@ button.button-disabled,button[disabled] {
     color: #fff;
     font-size: 1.6875em;
     padding: 12px 25px;
-    font-family: League Spartan,Helvetica,Arial,sans-serif
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif
 }
 
 .mobile-nav-links a:hover {
@@ -2250,6 +2249,11 @@ textarea {
     font-size: .75em
 }
 
+.form-text {
+    color: #f3f3f3;
+    font-size: .875em
+}
+
 .the-form {
     padding: 20px 0 0
 }
@@ -2311,7 +2315,7 @@ textarea {
     top: -13px;
     left: 0;
     font-size: .6875em;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     letter-spacing: 2px
 }
 
@@ -2594,7 +2598,7 @@ textarea {
         height: 198px;
         font-size: 11.5625em;
         overflow: hidden;
-        font-family: League Spartan,Helvetica,Arial,sans-serif;
+        font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
         color: #99999d;
         -webkit-transform: translateY(15px);
         transform: translateY(15px);
@@ -2791,7 +2795,7 @@ textarea {
     line-height: 1;
     font-size: 8.125em;
     opacity: .045;
-    font-family: League Spartan,Helvetica,Arial,sans-serif
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif
 }
 
 .experiment .experiment-circle {
@@ -2864,7 +2868,7 @@ textarea {
     font-size: .625em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: League Spartan,Helvetica,Arial,sans-serif
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif
 }
 
 .experiment .experiment-title-area .experiment-title-label:before {
@@ -3109,7 +3113,7 @@ textarea {
     bottom: -50px;
     right: 50px;
     font-size: 12.5em;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     opacity: 0;
     text-shadow: 5px 5px 11px rgba(0,0,0,.5);
     -webkit-transform: translateX(60px);
@@ -3382,7 +3386,7 @@ textarea {
     top: 30px;
     right: 0;
     font-size: .875em;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: translateX(40px);
@@ -3430,7 +3434,7 @@ textarea {
 .footer-links a {
     display: block;
     padding: 15px 0;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     position: relative;
     color: #f3f3f3;
     transition: color .3s ease
@@ -4169,7 +4173,7 @@ main {
     font-size: 190px;
     position: absolute;
     opacity: .07;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     z-index: 0
 }
 
@@ -4337,7 +4341,7 @@ main {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     font-size: .75em;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     opacity: 0;
     transition: opacity .3s,-webkit-transform .3s cubic-bezier(.694,.048,.335,1);
     transition: opacity .3s,transform .3s cubic-bezier(.694,.048,.335,1);
@@ -4553,7 +4557,7 @@ main {
     bottom: -150px;
     left: 6%;
     opacity: .1;
-    font-family: League Spartan,Helvetica,Arial,sans-serif;
+    font-family: League Spartan,Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",sans-serif;
     z-index: 0
 }
 
@@ -5395,6 +5399,12 @@ main {
 
 .box-404:nth-child(9) svg path {
     stroke: #ff0
+}
+
+[lang="cn"] .about-me-subtitle {
+    font-size: .875em;
+    font-weight: bold;
+    margin-bottom: .1em;
 }
 
 @media print {
