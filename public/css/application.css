@@ -1587,12 +1587,12 @@ button.button-disabled,button[disabled] {
 }
 
 #shapes-mask {
-    overflow: inherit;
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     transition: opacity .25s ease .65s;
     z-index: -3
 }
@@ -5399,6 +5399,10 @@ main {
 
 .box-404:nth-child(9) svg path {
     stroke: #ff0
+}
+
+.stripe-loader {
+  overflow: hidden
 }
 
 [lang="cn"] .about-me-subtitle {

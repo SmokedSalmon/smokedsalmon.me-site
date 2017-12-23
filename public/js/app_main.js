@@ -344,7 +344,7 @@ var Util = function(t) {
         }))
     }
       , l = function() {
-        Modernizr.mq("(min-width: 360px)") && new Vivus("logo-anim",{
+        Modernizr.mq("(min-width: 1024px)") && new Vivus("logo-anim",{
             type: "delayed",
             delay: 48,
             duration: 60
@@ -361,7 +361,7 @@ var Util = function(t) {
               var e = window.baffle(titles[i], {  
                   characters: "█▓▒░█▓▒░█▓▒░<>/"
               });
-              Modernizr.mq("(min-width: 360px)") && setTimeout(function(e, initial) {
+              Modernizr.mq("(min-width: 1024px)") && setTimeout(function(e, initial) {
                   e.start().reveal(700 + initial, 800 + initial);
               }, 200, e, initial_time);
               i += 1;
