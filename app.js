@@ -13,7 +13,15 @@ app.use('/public/assets', express.static(path.join(__dirname + '/public')));
 
 // route to the landing pages for this experiment
 app.get('/', function(req, res, next){
-  res.sendFile(path.join(__dirname + '/views/index.html'));
+  res.sendFile(path.join(__dirname + '/views/index_cn.html'));
+});
+
+app.get('/cn', function(req, res, next){
+  res.sendFile(path.join(__dirname + '/views/index_cn.html'));
+});
+
+app.get('/en', function(req, res, next){
+  res.sendFile(path.join(__dirname + '/views/index_en.html'));
 });
 
 // 404 catch-all handler (middleware)

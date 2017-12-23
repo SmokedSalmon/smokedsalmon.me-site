@@ -1,7 +1,8 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden 
 }
 
 body {
@@ -4443,8 +4444,8 @@ main {
     }
 
     .about-contact .half-contact.is-about,.about-contact .half-contact.is-contact {
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%)
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%)
     }
 
     .about-contact .half-contact .contact-info {
@@ -4468,12 +4469,12 @@ main {
       top: 0;
       margin-top: -200px;
       width: 100%;
-      padding: 40px 15%;
+      padding: 0;
       background-color: #d16335;
       opacity: 0;
-      transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transition: transform .45s cubic-bezier(.694,.048,.335,1),opacity .3s, margin-top .45s step-end;
+      transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transition: transform .45s cubic-bezier(.694,.048,.335,1),opacity .3s, margin-top .45s step-end, padding .45s step-end;
     }
 
     .about-contact .half-contact.is-about {
@@ -4506,7 +4507,7 @@ main {
       -webkit-transform: translateX(0);
       transform: translateX(0);
       transition-delay: .3s;
-      transition: transform .45s cubic-bezier(.694,.048,.335,1),opacity .3s, margin-top 0s;
+      transition: transform .45s cubic-bezier(.694,.048,.335,1),opacity .3s;
     }
     
     .about-contact .contact-promt .close-contact-promt {
