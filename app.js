@@ -24,6 +24,10 @@ app.get('/en', function(req, res, next){
   res.sendFile(path.join(__dirname + '/views/index_en.html'));
 });
 
+// routes
+require('./route/route.js')(app);
+
+
 // 404 catch-all handler (middleware)
 app.use(function(req, res, next){
 	res.status(404);
