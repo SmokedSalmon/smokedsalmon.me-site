@@ -1,5 +1,6 @@
 var qs = require('querystring');
 var http = require('http');
+var path = require('path');
 
 module.exports = function(app) {
   //WeChat verification for server ownership
@@ -26,7 +27,7 @@ module.exports = function(app) {
   app.get('/wechat-oid', function (req, res, next) {
     var query = req.query,
         code = query.code,
-        url_base = 'https://api.weixin.qq.com',
+        url_base = 'api.weixin.qq.com',
         path = '/sns/oauth2/access_token?'
         s_appid = 'appid=wx2a396a0704b080ea',
         s_secret = 'secret=093dfcd5c0631a6269feab22c3d81569',
@@ -47,6 +48,7 @@ module.exports = function(app) {
       //  res.write(JSON.parse(xhr.responseText));
       //}
       options = {
+        protocol: 'https:',
         hostname: url_base,
         path: path,
         method: 'GET',
@@ -73,6 +75,18 @@ module.exports = function(app) {
       });
       
       request.end();
+    }
+  });
+  
+  // a page for returning statics of my clients' projects
+  app.get('/stat', function(req, res, next){
+    var lang = req.query.lang,
+        code = req.query.code;
+    //if( code === '5a49af86d20810776a42fe8e' ) {
+      if( code === '5a4bafafaeece138fd572e34' ) {
+        res.sendFile(path.join(path.dirname(process.argv[1]) + '/views/stat_cn.html'));
+    } else {
+        res.sendFile(path.join(path.dirname(process.argv[1]) + '/views/stat404_cn.html'));
     }
   });
 };
